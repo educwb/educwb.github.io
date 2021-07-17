@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.btn-enviar {
+  padding: 15px;
+  width: 734px;
+  background-color: rgb(39, 126, 226);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.btn-enviar:hover {
+  background-color: rgb(21, 102, 194);
+}
